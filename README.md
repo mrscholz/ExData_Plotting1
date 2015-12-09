@@ -5,6 +5,9 @@ The generated plots in `png` are found in the `./figure` folder of this reposito
 
 Function call works via `plotN()`, where N=1...4. Optionally, if the scripts are not in the same folder as the dataset `household_power_consumption.txt` the path can be assigned as a parameter to plotN: `plotN(path="/path/to/folder/")`. The scripts assume that the file was not renamed.
 
+## Needed R packages
+
+Scripts require both, the `data.table` and the `lubridate` package to be installed.
 
 ## Introduction
 
