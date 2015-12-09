@@ -1,3 +1,11 @@
+## Notes on Provided Files
+
+plot1.R - plot4.R contain the R scripts to generate the plots described below.
+The generated plots in `png` are found in the `./figure` folder of this repository and are named according to the script that generates them.
+
+Function call works via `plotN()`, where N=1...4. Optionally, if the scripts are not in the same folder as the dataset `household_power_consumption.txt` the path can be assigned as a parameter to plotN: `plotN(path="/path/to/folder/")`. The scripts assume that the file was not renamed.
+
+
 ## Introduction
 
 This assignment uses data from
